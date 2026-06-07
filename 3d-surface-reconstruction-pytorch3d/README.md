@@ -56,6 +56,10 @@ src_mesh = ico_sphere(5, device)
 
 The parameter `5` controls the subdivision level of the sphere and determines the resolution of the initial mesh.
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-surface-reconstruction-pytorch3d/figures/initial.jpg" />
+</p>
+
 ### 2. Mesh Deformation
 
 The vertices of the initial mesh are updated using gradient-based optimization. The learnable variable is the vertex offset, which gradually deforms the sphere toward the target point cloud.
@@ -118,6 +122,10 @@ This setup provides the best compromise between surface fidelity and smoothness.
 
 ## Results
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-surface-reconstruction-pytorch3d/figures/results.jpg" />
+</p>
+
 The experiments showed that regularization plays a critical role in surface reconstruction.
 
 Main observations:
@@ -151,3 +159,5 @@ The best result was achieved by Experiment C, which used balanced regularization
 This project demonstrates a deformable mesh approach for reconstructing a surface from a noisy point cloud. The results show that Chamfer distance alone is not enough for stable reconstruction. Strong smoothing improves stability but may remove important geometry. The best visual result is achieved when Chamfer distance, edge regularization, and Laplacian smoothing are combined in a balanced way.
 
 The project confirms that regularization is essential for producing smooth and visually meaningful 3D reconstructions from noisy data.
+
+FOR MORE INFO, CHECK Report.pdf!!!
