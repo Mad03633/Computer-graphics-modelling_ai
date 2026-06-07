@@ -4,6 +4,12 @@ This project implements surface reconstruction from a noisy 3D point cloud using
 
 The reconstruction starts from an initial spherical mesh and gradually deforms its vertices to fit a noisy point cloud sampled from a custom 3D object.
 
+## Author
+
+Madiyar Bolatov  
+AAI-2501M  
+Astana IT University
+
 ## Project Overview
 
 Surface reconstruction is an important task in 3D computer vision. It aims to recover a smooth and meaningful 3D surface from a set of points. In real-world scenarios, point clouds are often noisy because of sensor limitations, scanning errors, or imperfect data acquisition.
@@ -140,55 +146,8 @@ The best result was achieved by Experiment C, which used balanced regularization
 - 3D mesh processing
 - Point cloud processing
 
-## Possible Repository Structure
-
-```text
-surface-reconstruction-noisy-point-clouds/
-│
-├── README.md
-├── notebooks/
-│   └── surface_reconstruction.ipynb
-│
-├── data/
-│   └── sofa_model.obj
-│
-├── outputs/
-│   ├── point_cloud.png
-│   ├── reconstruction_results.png
-│   └── loss_curve.png
-│
-└── requirements.txt
-```
-
-## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/surface-reconstruction-noisy-point-clouds.git
-cd surface-reconstruction-noisy-point-clouds
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the notebook:
-
-```bash
-jupyter notebook notebooks/surface_reconstruction.ipynb
-```
-
 ## Conclusion
 
 This project demonstrates a deformable mesh approach for reconstructing a surface from a noisy point cloud. The results show that Chamfer distance alone is not enough for stable reconstruction. Strong smoothing improves stability but may remove important geometry. The best visual result is achieved when Chamfer distance, edge regularization, and Laplacian smoothing are combined in a balanced way.
 
 The project confirms that regularization is essential for producing smooth and visually meaningful 3D reconstructions from noisy data.
-
-## Author
-
-Madiyar Bolatov  
-AAI-2501M  
-Astana IT University
