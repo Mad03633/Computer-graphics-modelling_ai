@@ -47,6 +47,10 @@ The object preparation included:
 - scaling the mesh to fit inside a unit sphere;
 - simplifying the mesh using decimation.
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-silhouette/figures/norm.jpg" />
+</p>
+
 Mesh normalization was important because an incorrectly scaled object could produce unstable silhouettes or poor gradients during optimization.
 
 ### 2. Rendering Setup
@@ -106,6 +110,10 @@ Initial camera position: (2.5, -1.5, 3.0)
 The initial camera position was intentionally selected far from the target camera position to test whether the optimization process could recover the correct pose.
 
 ## Results
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-silhouette/figures/visual_comp.jpg" />
+</p>
 
 The loss decreased rapidly from approximately:
 
