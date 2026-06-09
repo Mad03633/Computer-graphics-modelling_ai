@@ -35,6 +35,10 @@ This project demonstrates that silhouette information can be sufficient for accu
 
 A custom 3D guitar model was used instead of the default teapot model from the tutorial.
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-silhouette/figures/guitar.jpg" />
+</p>
+
 The object preparation included:
 
 - loading the `.obj` mesh;
@@ -186,3 +190,5 @@ The method achieved:
 - robustness without relying on texture or RGB information.
 
 The results confirm that silhouette-based optimization is an effective approach for object pose estimation when the object geometry is known and a differentiable rendering pipeline is available.
+
+FOR MORE INFO, CHECK Report.pdf!!!
