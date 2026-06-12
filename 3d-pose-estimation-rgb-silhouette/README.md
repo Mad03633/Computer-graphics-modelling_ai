@@ -53,6 +53,10 @@ where:
 
 ## Object Used
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-silhouette/figures/guitar.jpg" />
+</p>
+
 The object used in this project is a **3D guitar model** in `.obj` format.
 
 Since the original model did not include a predefined texture, a synthetic texture was generated. Each triangle face of the mesh was assigned a random color using a texture atlas.
@@ -70,6 +74,10 @@ The data preparation pipeline includes:
 3. Normalizing the object by centering and scaling it
 4. Assigning a synthetic texture to each triangle
 5. Rendering target RGB and silhouette images from a known camera pose
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-silhouette/figures/norm.jpg" />
+</p>
 
 Mesh decimation was used to reduce computational cost while preserving the general geometry of the guitar.
 
@@ -139,6 +147,11 @@ Four experiments were conducted with different loss weights.
 
 ### Experiment A: Silhouette Only
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/silh_only_rgb.jpg" />
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/silh_only_silh.jpg" />
+</p>
+
 ```text
 w_silh = 1.0
 w_tex  = 0.0
@@ -156,6 +169,11 @@ Silhouette provides strong global geometric information and is reliable for came
 
 ### Experiment B: Texture Only
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/text_only_rgb.jpg" />
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/text_only_silh.jpg" />
+</p>
+
 ```text
 w_silh = 0.0
 w_tex  = 1.0
@@ -172,6 +190,11 @@ Conclusion:
 Texture alone is not sufficient for reliable pose estimation. It can mislead optimization because RGB appearance is sensitive to local color patterns, lighting, and alignment errors.
 
 ### Experiment C: Silhouette + Weak Texture
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/combined_rgb.jpg" />
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/combined_silh.jpg" />
+</p>
 
 ```text
 w_silh = 1.0
