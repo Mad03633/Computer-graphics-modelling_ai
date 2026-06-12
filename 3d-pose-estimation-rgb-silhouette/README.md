@@ -191,6 +191,11 @@ Texture alone is not sufficient for reliable pose estimation. It can mislead opt
 
 ### Experiment C: Silhouette + Weak Texture
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/combined_rgb.jpg" />
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/combined_silh.jpg" />
+</p>
+
 ```text
 w_silh = 1.0
 w_tex  = 0.1
