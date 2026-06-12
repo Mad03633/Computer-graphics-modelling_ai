@@ -169,6 +169,11 @@ Silhouette provides strong global geometric information and is reliable for came
 
 ### Experiment B: Texture Only
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/text_only_rgb.jpg" />
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/3d-pose-estimation-rgb-silhouette/figures/text_only_silh.jpg" />
+</p>
+
 ```text
 w_silh = 0.0
 w_tex  = 1.0
