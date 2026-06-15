@@ -192,6 +192,26 @@ ViTs can be limited because they:
 - can be computationally expensive;
 - depend strongly on pretraining and regularization.
 
+## Results
+
+By training ResNet18, ViT-Tiny, DeiT-Tiny and EfficientNet-B0 on CIFAR-10 using pretrained models:
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/cnn-vit-image-classification/figures/acc_graph.jpg"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/cnn-vit-image-classification/figures/acc_table.jpg"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/cnn-vit-image-classification/figures/resnet_results.jpg"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/cnn-vit-image-classification/figures/efficientnet_results.jpg"/>
+</p>
+
 ## Conclusion
 
 The project concludes that both CNNs and Vision Transformers are effective for image classification, but they are suitable for different conditions.
@@ -221,16 +241,3 @@ This project focuses on the following concepts:
 - Self-attention
 - Computational efficiency
 - Data requirements in deep learning
-
-## Possible Improvements
-
-Future improvements could include:
-
-- implementing CNN and ViT models on the same dataset;
-- comparing ResNet, EfficientNet, ViT, DeiT, and Swin Transformer experimentally;
-- adding accuracy, precision, recall, and F1-score metrics;
-- measuring training time and inference speed;
-- evaluating GPU memory usage;
-- testing transfer learning with frozen and unfrozen layers;
-- visualizing attention maps for ViT models;
-- comparing Grad-CAM results for CNN models.
