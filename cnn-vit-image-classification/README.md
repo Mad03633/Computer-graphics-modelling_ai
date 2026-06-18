@@ -241,3 +241,6 @@ This project focuses on the following concepts:
 - Self-attention
 - Computational efficiency
 - Data requirements in deep learning
+
+
+FOR MORE INFO, CHECK Report.pdf!!!
