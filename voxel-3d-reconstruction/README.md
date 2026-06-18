@@ -31,6 +31,10 @@ The main objectives of this project are:
 - to compare reconstruction results after 150, 300, and 600 iterations;
 - to analyze the effect of density regularization on the final volume.
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/voxel-3d-reconstruction/figures/duck_preview.jpg"/>
+</p>
+
 ## Dataset
 
 A custom **rubber duck 3D model** was used instead of the default synthetic cow from the tutorial.
@@ -43,6 +47,10 @@ The generated dataset contains:
 40 RGB images
 40 silhouette images
 ```
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/voxel-3d-reconstruction/figures/rgb_silh_datasets.jpg"/>
+</p>
 
 Each view includes:
 
@@ -178,6 +186,10 @@ Observations:
 - the loss decreased only slightly;
 - visual improvement was limited;
 - additional training time did not significantly improve the result.
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/voxel-3d-reconstruction/figures/rgb_silh_exp.jpg"/>
+</p>
 
 ## Results
 
