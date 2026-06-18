@@ -270,3 +270,5 @@ This project successfully demonstrates voxel-based 3D reconstruction from multi-
 A learnable voxel grid was optimized using RGB reconstruction loss, silhouette loss, and density regularization. The reconstructed duck preserved the main object shape and basic color distribution.
 
 The best practical result was achieved around **300 iterations**, where the reconstruction became stable while avoiding unnecessary extra training time.
+
+FOR MORE INFO, CHECK Report.pdf!!!
