@@ -197,6 +197,10 @@ The training loss decreased quickly during the first 100 iterations. After appro
 
 This means that most of the useful learning happened in the early training stage.
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/voxel-3d-reconstruction/figures/final_visual.jpg"/>
+</p>
+
 The final reconstruction successfully captured:
 
 - the overall shape of the duck;
@@ -214,6 +218,10 @@ However, some limitations remained:
 ## Effect of Regularization
 
 Density regularization improved the reconstruction by reducing unnecessary density in empty regions.
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/voxel-3d-reconstruction/figures/effect_reg.jpg"/>
+</p>
 
 Benefits:
 
