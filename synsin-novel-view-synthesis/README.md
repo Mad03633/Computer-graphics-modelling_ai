@@ -168,6 +168,18 @@ Small transformations were used because larger viewpoint changes produced strong
 
 The chess piece produced the strongest result.
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/bishop_results.jpg"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/book_results.jpg"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/Terence_results.jpg"/>
+</p>
+
 Observations:
 
 - the silhouette was preserved reasonably well;
