@@ -38,6 +38,18 @@ The objectives of this project are:
 
 SynSin is an end-to-end method for novel view synthesis from a single image.
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/bishop.jpg"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/book.jpg"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/Terence.jpg"/>
+</p>
+
 The model takes:
 
 ```text
