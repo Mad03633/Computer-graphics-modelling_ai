@@ -249,6 +249,10 @@ Compared with those examples, the custom results in this project contained more 
 
 The project shows that SynSin can generate plausible novel views for simple out-of-domain images, but its performance decreases as the input becomes less similar to the training data.
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/synsin.jpg"/>
+</p>
+
 Main conclusions:
 
 - SynSin works best on scene-like images similar to RealEstate10K.
