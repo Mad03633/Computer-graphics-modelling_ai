@@ -52,6 +52,10 @@ The model first predicts a coarse 3D shape and then refines it into a triangle m
 
 ## Mesh R-CNN Pipeline
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/mesh-rcnn-3d-detection/figures/mesh_r-cnn.jpg"/>
+</p>
+
 The general pipeline is:
 
 ```text
@@ -118,6 +122,11 @@ The experiment used images containing:
 | Chair | Familiar Pix3D-like category | Test in-domain performance |
 | Sofa | Familiar Pix3D-like category | Test another known furniture category |
 | Motorcycle / Car | Out-of-distribution object | Test generalization limits |
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/chair_sofa_car.jpg"/>
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/chair_sofa_motorcycle.jpg"/>
+</p>
 
 The chair and sofa were selected because they are close to the Pix3D furniture domain. The motorcycle/car example was selected because it does not belong to the Pix3D furniture categories, making it useful for out-of-distribution testing.
 
@@ -261,3 +270,5 @@ The model performs well on familiar Pix3D-like categories such as chair and sofa
 However, the generated meshes are coarse and simplified, especially for thin or detailed structures. The model also struggles with objects outside its training distribution.
 
 Overall, Mesh R-CNN is effective for coarse 3D reconstruction of known categories but has limited generalization to unfamiliar object types.
+
+FOR MORE INFO, CHECK Report.pdf!!!
