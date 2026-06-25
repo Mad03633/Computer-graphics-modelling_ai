@@ -124,8 +124,8 @@ The experiment used images containing:
 | Motorcycle / Car | Out-of-distribution object | Test generalization limits |
 
 <p align="center">
-  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/chair_sofa_car.jpg"/>
-  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/synsin-novel-view-synthesis/figures/chair_sofa_motorcycle.jpg"/>
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/mesh-rcnn-3d-detection/figures/chair_sofa_car.jpg"/>
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/mesh-rcnn-3d-detection/figures/chair_sofa_motorcycle.jpg"/>
 </p>
 
 The chair and sofa were selected because they are close to the Pix3D furniture domain. The motorcycle/car example was selected because it does not belong to the Pix3D furniture categories, making it useful for out-of-distribution testing.
@@ -133,6 +133,10 @@ The chair and sofa were selected because they are close to the Pix3D furniture d
 ## Results
 
 ### 1. Chair Image
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/mesh-rcnn-3d-detection/figures/results_chair.jpg"/>
+</p>
 
 For the chair image, the model predicted:
 
@@ -142,6 +146,10 @@ Confidence score: 1.000
 ```
 
 This was a correct semantic prediction.
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/mesh-rcnn-3d-detection/figures/rendered_mesh_chair.jpg"/>
+</p>
 
 The generated mesh captured the general chair-like structure, including:
 
@@ -157,6 +165,10 @@ Mesh R-CNN worked well for recognizing the chair, but the predicted mesh was onl
 
 ### 2. Sofa Image
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/mesh-rcnn-3d-detection/figures/results_sofas.jpg"/>
+</p>
+
 For the sofa image, the model predicted:
 
 ```text
@@ -165,6 +177,10 @@ Confidence score: 1.000
 ```
 
 This was also a correct semantic prediction.
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/mesh-rcnn-3d-detection/figures/rendered_mesh_sofa.jpg"/>
+</p>
 
 The predicted mesh represented the general elongated shape of the sofa. The model captured the global volume, but the reconstruction was simplified.
 
@@ -180,6 +196,10 @@ Missing or weakly reconstructed details included:
 The model successfully recognized the sofa and recovered its approximate 3D structure. However, the predicted mesh lacked detailed geometry.
 
 ### 3. Out-of-Distribution Object
+
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/main/mesh-rcnn-3d-detection/figures/results_motorcycle_car.jpg"/>
+</p>
 
 For the motorcycle/car image, the object was outside the Pix3D furniture domain.
 
