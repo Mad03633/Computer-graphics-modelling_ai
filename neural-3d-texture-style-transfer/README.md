@@ -14,6 +14,13 @@ Astana IT University
 
 The goal of this project is to stylize a textured 3D mesh while keeping its geometry unchanged.
 
+<p align="center">
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/neural-3d-texture-style-transfer/figures/orig_mesh_chair.jpg"/>
+  <img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/neural-3d-texture-style-transfer/figures/orig_texture.jpg"/>
+</p>
+
+<img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/neural-3d-texture-style-transfer/figures/style.jpg"/>
+
 A chair model from **ShapeNet** was used as the 3D object, and **Edvard Munch's The Scream** was used as the reference style image.
 
 The main idea is:
