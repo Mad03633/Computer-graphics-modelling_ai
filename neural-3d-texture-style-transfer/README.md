@@ -124,6 +124,8 @@ This helped more UV regions receive useful gradients.
 
 One problem in the initial implementation was that the object occupied only a small part of the rendered image, while most of the image was white background.
 
+<img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/neural-3d-texture-style-transfer/figures/foreground_crop.jpg"/>
+
 If style loss is computed over the full image, the background dominates the VGG feature comparison and weakens the style signal.
 
 To solve this, the alpha channel from PyTorch3D rendering was used to crop the foreground object. The style loss was then computed mainly on the chair region instead of the full background.
@@ -174,6 +176,8 @@ It encourages neighboring texture pixels to have similar values, which produces 
 
 A UV coverage map was computed to diagnose which UV pixels receive gradients during rendering.
 
+<img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/neural-3d-texture-style-transfer/figures/uv_coverage_map.jpg"/>
+
 The idea is:
 
 ```text
@@ -187,6 +191,8 @@ This diagnostic step helped analyze whether artifacts were caused by poor UV vis
 ## Comparison with Naive 2D Style Transfer
 
 The UV-based method was compared with a naive 2D style transfer baseline.
+
+<img src="https://github.com/Mad03633/Computer-graphics-modelling_ai/blob/dev/neural-3d-texture-style-transfer/figures/comparison.jpg"/>
 
 ### Naive 2D Baseline
 
