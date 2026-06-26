@@ -4,6 +4,12 @@ This repository contains a collection of projects focused on **3D deep learning,
 
 The work was completed as a series of assignments and a final project. Each project explores a different 3D computer vision technique using modern deep learning libraries such as **PyTorch**, **PyTorch3D**, **Detectron2**, **Mesh R-CNN**, and **SynSin**.
 
+## Author
+
+**Madiyar Bolatov**  
+AAI-2501M  
+Astana IT University
+
 ## Overview
 
 The main purpose of this repository is to demonstrate practical experiments with 3D computer vision models and differentiable rendering pipelines.
